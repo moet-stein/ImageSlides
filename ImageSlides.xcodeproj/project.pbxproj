@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		6058B3AB28579098003E1450 /* ImageSlides.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6058B3AA28579098003E1450 /* ImageSlides.docc */; };
 		6058B3AC28579098003E1450 /* ImageSlides.h in Headers */ = {isa = PBXBuildFile; fileRef = 6058B3A928579098003E1450 /* ImageSlides.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6058B3B3285790A6003E1450 /* ImageSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6058B3B2285790A6003E1450 /* ImageSlidesView.swift */; };
+		6058B3B5285790AE003E1450 /* NumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6058B3B4285790AE003E1450 /* NumberLabel.swift */; };
+		6058B3B82857922E003E1450 /* SDWebImage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6058B3B72857922E003E1450 /* SDWebImage.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6058B3A628579098003E1450 /* ImageSlides.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageSlides.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6058B3A928579098003E1450 /* ImageSlides.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageSlides.h; sourceTree = "<group>"; };
 		6058B3AA28579098003E1450 /* ImageSlides.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ImageSlides.docc; sourceTree = "<group>"; };
+		6058B3B2285790A6003E1450 /* ImageSlidesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSlidesView.swift; sourceTree = "<group>"; };
+		6058B3B4285790AE003E1450 /* NumberLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberLabel.swift; sourceTree = "<group>"; };
+		6058B3B72857922E003E1450 /* SDWebImage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SDWebImage.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6058B3B82857922E003E1450 /* SDWebImage.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,9 @@
 			isa = PBXGroup;
 			children = (
 				6058B3A928579098003E1450 /* ImageSlides.h */,
+				6058B3B2285790A6003E1450 /* ImageSlidesView.swift */,
+				6058B3B4285790AE003E1450 /* NumberLabel.swift */,
+				6058B3B72857922E003E1450 /* SDWebImage.xcframework */,
 				6058B3AA28579098003E1450 /* ImageSlides.docc */,
 			);
 			path = ImageSlides;
@@ -132,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6058B3B5285790AE003E1450 /* NumberLabel.swift in Sources */,
+				6058B3B3285790A6003E1450 /* ImageSlidesView.swift in Sources */,
 				6058B3AB28579098003E1450 /* ImageSlides.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
