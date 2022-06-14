@@ -31,12 +31,14 @@ public class ImageSlidesView: UIView, UIScrollViewDelegate {
     private let belowNumberLabel: NumberLabel = {
         let label = NumberLabel(bgColor: UIColor.white.withAlphaComponent(0.4).cgColor,
                                 colorForText: UIColor.black)
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     private var insideNumberLabel: NumberLabel = {
         let label = NumberLabel(bgColor: UIColor.black.withAlphaComponent(0.5).cgColor,
                                 colorForText: UIColor.white)
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
