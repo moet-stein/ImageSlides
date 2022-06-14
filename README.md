@@ -35,7 +35,7 @@ imageSlides.setNumberLabelInside(bgColor: UIColor, fontColor:UIColor, fontName: 
 ```
 ### example of having a pagination label on the slides
 <a>
-    <img src="https://user-images.githubusercontent.com/66197018/173561730-9d016912-1cf4-429d-8ae0-591aac3e9aac.png" alt="LabelInside" width="300" height="480" >
+    <img src="https://user-images.githubusercontent.com/66197018/173561730-9d016912-1cf4-429d-8ae0-591aac3e9aac.png" alt="LabelInside" width="300" height="500" >
 </a>
 
 To set a number label BELOW the image slide show
@@ -48,5 +48,5 @@ imageSlides.setNumberLabelBelow(bgColor: UIColor, fontColor: UIColor, fontName: 
 
 ### example of having a pagination label below the slides
 <a>
-    <img src="https://user-images.githubusercontent.com/66197018/173561557-8e55893c-14ba-4bda-9bc8-e2ca62cfc13a.png" alt="LabelBelow" width="300" height="480" >
+    <img src="https://user-images.githubusercontent.com/66197018/173561557-8e55893c-14ba-4bda-9bc8-e2ca62cfc13a.png" alt="LabelBelow" width="300" height="500" >
 </a>
