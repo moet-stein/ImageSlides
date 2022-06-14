@@ -10,7 +10,7 @@ import UIKit
 import SDWebImage
 
 
-class ImageSlidesView: UIView, UIScrollViewDelegate {
+public class ImageSlidesView: UIView, UIScrollViewDelegate {
 
     var slidesWidth: CGFloat
     var slidesHeight: CGFloat

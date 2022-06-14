@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NumberLabel: UILabel {
+public class NumberLabel: UILabel {
     var bgColor: CGColor
     var colorForText: UIColor
     
