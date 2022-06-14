@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "ImageSlides"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "Swift Framework for Image Slides."
   spec.description  = "This is a framework for Customised UIView to display Images in slides."
   spec.homepage     = "https://github.com/moet-stein/ImageSlides"
