@@ -1,5 +1,6 @@
 # ImageSlides 🖼 
 Swift Framework for Image Slides using [SDWebImage](https://github.com/SDWebImage/SDWebImage) to cache images.
+
 You can see my example project [here](https://github.com/moet-stein/ImageSlidesExampleProject).
 
 ## 👩🏻‍🔧 Installation
